@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>DUMBOMOVIES - Ver HenryProyectoFullStack M02 de Ornella Ferrario en Español</title>
+  </head>
+  <body>
+    <!-- //ACA EMPIEZA MI HEADER// -->
+    <header class="header">
+
+      <div class="menu">
+
+          <a href="logo" class ="logo" >DUMBOMOVIES</a>
+          <input type="checkbox" id="menu" />
+          <label for="menu">
+              <img src = "./styles/assets/menu.png" class ="menu-icono" alt="menu">
+          </label>
+          
+          <nav class="navbar">
+              <ul>
+                  <li><a href="./index.html">Inicio</a></li>
+                  <li><a href="./HTML/historia.html">Historia del Cine</a></li>
+                  <li><a href="./HTML/webs.html">Webs mas recomendadas</a></li>
+                  <li><a href="./HTML/sobre.html">Sobre Mi Proyecto</a></li>
+              </ul>
+          </nav>
+          <a href="./HTML/cargar.html" class="btn-1"> SUBIR PELICULA </a>
+      </div>
+
+      <div class="header-content container" >
+          <div class="header-1">
+              <img src="./styles/assets/harryPotter.png" alt="harryPotter">
+              <a href="#" class="btn-2">Ver Ahora</a>
+          </div>
+          <div class="header-2">
+              <h1>Las mejores <br> peliculas</h1>
+              <img src="./styles/assets/play.png" alt="play">
+          </div>
+      </div>
+  </header>
+  <hr></hr>
+<!-- //ACA EMPIEZA MI MAIN// -->
+  <main>
+    <h3>PELICULAS MAS VISTAS</h3>
+    <!-- //CONTAINER DE LAS TARJETAS// -->
+    <div class = "container" id="container">
+    </div>
+  </main>
+    <hr></hr>
+    <!-- //MI FOOTER// -->
+    <footer class="footer container">
+      <h3>SuperPelis</3>
+          <ul>
+              <li><a href="./HTML/cargar.html">SUBIR PELICULA</a></li>
+              <li><a href="#">CONTACTO</a></li>
+          </ul>
+      
+  
+  </footer>
+    <script src="./public/bundle.js"></script>
+    
+  </body>
+  
+</html>
